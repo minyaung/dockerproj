@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("This is a Docker Project for DevOps Project 1!! \n");
+  response.end("This is a Docker Project for DevOps Project 1!! \n This is to test Jenkins auto build!! \n");
 });
 
 // listen on localhost:8000
